@@ -1,0 +1,19 @@
+package oopsproject;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        DiffMethods d1=new DiffMethods();
+        d1.fun1();
+	}
+
+}
+
+class DiffMethods
+{
+	void fun1()
+	{
+		System.out.println("NO parameter no returntype");
+	}
+}

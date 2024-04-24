@@ -1,0 +1,25 @@
+package oopsproject;
+
+public class polymorphismtest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		doctor d1=new surgeon();
+		d1.diagnose();
+           
+	}
+
+}
+
+class doctor{
+	void diagnose() {
+		System.out.println("Doctor diadnoseing");
+	}
+	
+}
+class surgeon extends doctor{
+	void diagnose() {
+		System.out.println("Surgeon diadnoseing");
+	}
+	
+}

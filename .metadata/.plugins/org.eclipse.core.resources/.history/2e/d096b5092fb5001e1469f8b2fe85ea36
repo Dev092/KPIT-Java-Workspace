@@ -1,0 +1,27 @@
+package oopsproject;
+
+public class methodtest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        BankAccount bankaccobjRef1=new BankAccount();
+        bankaccobjRef1.withdraw();
+        //bankaccobjRef1.withdraw(8000);
+        
+	}
+
+}
+
+class BankAccount
+{
+	//1.fun without arguments
+	void withdraw()
+	{
+		System.out.println("Withdrawing");
+	}
+	//2.fun with args and without return type
+	void withdraw(int a)
+	{
+		System.out.println("Withdrawing...." a);
+	}
+}

@@ -1,0 +1,7 @@
+try {
+			item.sellItem();
+		} catch (NumberNotMatchException e) {
+			e.printStackTrace();
+		}
+		int n = item.n, number = item.number, cash = item.cashInHand;
+		int priceOfItem = getPrice(n);

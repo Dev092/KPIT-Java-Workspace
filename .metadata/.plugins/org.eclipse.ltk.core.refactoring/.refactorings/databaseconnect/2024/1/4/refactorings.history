@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;connecttest.java&apos; to &apos;databaseconnect&apos;&#x0D;&#x0A;- Original project: &apos;databaseconnect&apos;&#x0D;&#x0A;- Destination element: &apos;databaseconnect&apos;&#x0D;&#x0A;- Original element: &apos;databaseconnect.connecttest.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=databaseconnect" element1="/src&lt;databaseconnect{connecttest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1705842516337" units="1" version="1.0"/>
+</session>

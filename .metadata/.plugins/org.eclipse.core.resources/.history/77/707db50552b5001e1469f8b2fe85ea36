@@ -1,0 +1,21 @@
+package oopsproject;
+class pen{
+	String color;
+	String type;
+	
+	public void write()
+	{
+		System.out.println("Writing Something"+color);
+	}
+	
+}
+public class Tesr2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        pen pen1=new pen();
+        pen1.color="Red";
+        pen1.write();
+	}
+
+}

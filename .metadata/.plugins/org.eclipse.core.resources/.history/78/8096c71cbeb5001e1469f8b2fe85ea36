@@ -1,0 +1,20 @@
+package oopsproject;
+
+public class primeornot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=4;
+		boolean ans=false;
+		for(int i=2;i<n;i++)
+		{
+			if(n%i==0)
+			{
+				ans=true;
+			}
+		}
+		System.out.println(ans);
+
+	}
+
+}
